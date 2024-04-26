@@ -9,9 +9,10 @@ import SwiftUI
 
 struct AllCoinsView: View {
     var body: some View {
-        VStack {
+        VStack(alignment: .leading) {
             Text("All Coins")
                 .font(.headline)
+                .padding()
             
             HStack {
                 Text("Coin")
