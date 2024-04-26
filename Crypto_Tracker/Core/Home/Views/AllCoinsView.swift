@@ -20,7 +20,9 @@ struct AllCoinsView: View {
                 
                 Text("Prices")
             }
+            .foregroundStyle(.gray)
             .font(.caption)
+            .padding(.horizontal)
         }
     }
 }
