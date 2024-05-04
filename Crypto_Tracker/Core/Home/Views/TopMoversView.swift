@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct TopMoversView: View {
+    @StateObject var viewModel: HomeViewModel
     var body: some View {
         VStack(alignment: .leading) {
             Text("Top Movers")
@@ -26,5 +27,5 @@ struct TopMoversView: View {
 }
 
 #Preview {
-    TopMoversView()
+    TopMoversView(viewModel: HomeViewModel())
 }
