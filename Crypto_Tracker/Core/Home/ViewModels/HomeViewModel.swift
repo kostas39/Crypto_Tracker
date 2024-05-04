@@ -8,8 +8,9 @@
 import SwiftUI
 
 class HomeViewModel: ObservableObject {
-    @Published var coins = [Coin] ()
-    
+    @Published var coins = [Coin]()
+    @Published var topMovingCoins = [Coin]()
+
     init() {
         fetchCoinData()
     }
@@ -43,5 +44,10 @@ class HomeViewModel: ObservableObject {
             }
             
         }.resume()
+    }
+    
+    func configureTopMovingCoins() {
+        let topMovers = coins.sorted(by: { $0.priceChangePercentage24H > $1.priceChangePercentage24H })
+        self.topMovingCoins = Array(topMovers.prefix(5))
     }
 }
