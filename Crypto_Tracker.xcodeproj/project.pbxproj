@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2EA9EABC2BE8271300A70245 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 2EA9EABB2BE8271300A70245 /* Kingfisher */; };
 		2EAA493E2BDAA0DC00CF1190 /* Crypto_TrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAA493D2BDAA0DC00CF1190 /* Crypto_TrackerApp.swift */; };
 		2EAA49402BDAA0DC00CF1190 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAA493F2BDAA0DC00CF1190 /* ContentView.swift */; };
 		2EAA49422BDAA0DD00CF1190 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EAA49412BDAA0DD00CF1190 /* Assets.xcassets */; };
@@ -40,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EA9EABC2BE8271300A70245 /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,6 +170,9 @@
 			dependencies = (
 			);
 			name = Crypto_Tracker;
+			packageProductDependencies = (
+				2EA9EABB2BE8271300A70245 /* Kingfisher */,
+			);
 			productName = Crypto_Tracker;
 			productReference = 2EAA493A2BDAA0DC00CF1190 /* Crypto_Tracker.app */;
 			productType = "com.apple.product-type.application";
@@ -196,6 +201,9 @@
 				Base,
 			);
 			mainGroup = 2EAA49312BDAA0DC00CF1190;
+			packageReferences = (
+				2EA9EABA2BE8271300A70245 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = 2EAA493B2BDAA0DC00CF1190 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -436,6 +444,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2EA9EABA2BE8271300A70245 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.11.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2EA9EABB2BE8271300A70245 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2EA9EABA2BE8271300A70245 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2EAA49322BDAA0DC00CF1190 /* Project object */;
 }
