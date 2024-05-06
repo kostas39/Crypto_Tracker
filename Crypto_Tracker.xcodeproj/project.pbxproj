@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2EA9EABC2BE8271300A70245 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 2EA9EABB2BE8271300A70245 /* Kingfisher */; };
+		2EA9EABE2BE8C73600A70245 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA9EABD2BE8C73600A70245 /* Double.swift */; };
 		2EAA493E2BDAA0DC00CF1190 /* Crypto_TrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAA493D2BDAA0DC00CF1190 /* Crypto_TrackerApp.swift */; };
 		2EAA49402BDAA0DC00CF1190 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAA493F2BDAA0DC00CF1190 /* ContentView.swift */; };
 		2EAA49422BDAA0DD00CF1190 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EAA49412BDAA0DD00CF1190 /* Assets.xcassets */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2EA9EABD2BE8C73600A70245 /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
 		2EAA493A2BDAA0DC00CF1190 /* Crypto_Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Crypto_Tracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EAA493D2BDAA0DC00CF1190 /* Crypto_TrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crypto_TrackerApp.swift; sourceTree = "<group>"; };
 		2EAA493F2BDAA0DC00CF1190 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -114,6 +116,7 @@
 		2EAA494F2BDAA13200CF1190 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				2EA9EABD2BE8C73600A70245 /* Double.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -238,6 +241,7 @@
 				2EAA49402BDAA0DC00CF1190 /* ContentView.swift in Sources */,
 				2EAA493E2BDAA0DC00CF1190 /* Crypto_TrackerApp.swift in Sources */,
 				2EAA495E2BDC1E0F00CF1190 /* CoinRowView.swift in Sources */,
+				2EA9EABE2BE8C73600A70245 /* Double.swift in Sources */,
 				2EAA495A2BDAA52B00CF1190 /* TopMoversItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
